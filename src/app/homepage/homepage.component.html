@@ -1,0 +1,18 @@
+<div>
+    <p style="font-size: large; font-weight: bolder;text-align: center;">Phone Number Transform</p>
+</div>
+<div style="text-align:center">
+    <p>Please Enter Phone Number</p>
+    <input [(ngModel)]="phone">
+</div>
+<div style="text-align:center">
+    <p>Phone Number Entered</p>
+    <p>{{phone}}</p>
+    <button mat-button (click) = "onSubmit()">Submit Phone Number</button>
+</div>
+<div style="text-align:center">
+    <p>Total Tranform</p>
+    <p>{{totalCount}}</p>
+    <p>Transform Result</p>
+    <p>{{transform}}</p>
+</div>
